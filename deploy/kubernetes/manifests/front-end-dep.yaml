@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: quay.io/luke2/front-end:08f9ac25de84aa150f9d640f00d29638e174b8e9
+        image: quay.io/luke2/front-end:856e879e1a97a24899f00fedb91b9359b4695491
         resources:
           requests:
             cpu: 100m
