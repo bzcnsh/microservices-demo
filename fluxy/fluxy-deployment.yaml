@@ -16,7 +16,7 @@ spec:
       containers:
       - name: fluxy
         image: weaveworks/fluxy
-        imagePullPolicy: Never # must build manually
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3030
         volumeMounts:
