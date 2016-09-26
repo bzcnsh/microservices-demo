@@ -15,7 +15,7 @@ spec:
           secretName: fluxy-repo-key
       containers:
       - name: fluxy
-        image: weaveworks/fluxy
+        image: weaveworks/fluxy:master
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3030
