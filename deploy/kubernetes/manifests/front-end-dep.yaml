@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: weaveworksdemos/front-end
+        image: quay.io/luke2/front-end:08f9ac25de84aa150f9d640f00d29638e174b8e9
         resources:
           requests:
             cpu: 100m
